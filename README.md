@@ -19,9 +19,7 @@ The proposed pipeline consists of four main components:
 
 4. **ROS2 + ORB-SLAM3 Integration**
    The generated dynamic mask is transmitted together with the corresponding camera image to ORB-SLAM3, where features located inside dynamic regions are filtered before being used by the SLAM system.
-   
-![System Pipeline](<img width="847" height="397" alt="pipeline" src="https://github.com/user-attachments/assets/5b92d0da-707b-461e-932e-1dc1c7ca7d8f" />
-)
+
 ---
 
 ## 1. YOLOv11 Instance Segmentation
