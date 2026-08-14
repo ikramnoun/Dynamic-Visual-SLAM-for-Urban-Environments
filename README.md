@@ -144,7 +144,7 @@ For information about building and configuring ORB-SLAM3, refer to:
 
 ### Modifications to ORB-SLAM3
 
-Modifications were made to `Frame.cc` and `Frame.h` to allow ORB-SLAM3 to receive and use the generated dynamic mask.
+Modifications were made to `Frame.cc` and `Frame.h` to allow ORB-SLAM3 to receive and use the generated dynamic mask. The modified files can be found in ORB-SLAM3 folder.
 
 The modified system uses the mask to identify dynamic regions and **filter out ORB features located inside those regions** before they are used by the SLAM system.
 
