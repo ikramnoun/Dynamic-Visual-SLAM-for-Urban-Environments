@@ -327,7 +327,6 @@ evo_traj tum \
     --correct_scale \
     --save_plot three_trajectories.png
 ```
-
 This produces a visualization containing:
 
 1. KITTI ground-truth trajectory
@@ -337,6 +336,46 @@ This produces a visualization containing:
 The resulting plot can be used to visually analyze how dynamic-object filtering affects the estimated camera trajectory.
 
 The evaluation results can then be used to quantitatively compare the baseline and proposed systems and determine whether filtering dynamic features improves SLAM trajectory accuracy.
+
+<p align="center">
+  <img src="images/Seq1.png" width="900">
+</p>
+
+<p align="center">
+  <b>Figure 2.</b> Estimated trajectory for Sequence 01 compared with the ground truth.
+</p>
+
+<p align="center">
+  <img src="images/Seq4.png" width="900">
+</p>
+
+<p align="center">
+  <b>Figure 3.</b> Estimated trajectory for Sequence 04 compared with the ground truth.
+</p>
+
+<p align="center">
+  <img src="images/Seq6.png" width="900">
+</p>
+
+<p align="center">
+  <b>Figure 4.</b> Estimated trajectory for Sequence 06 compared with the ground truth.
+</p>
+
+<p align="center">
+  <img src="images/Seq7.png" width="900">
+</p>
+
+<p align="center">
+  <b>Figure 5.</b> Estimated trajectory for Sequence 07 compared with the ground truth.
+</p>
+
+<p align="center">
+  <img src="images/Seq9.png" width="900">
+</p>
+
+<p align="center">
+  <b>Figure 6.</b> Estimated trajectory for Sequence 09 compared with the ground truth.
+</p>
 
 
 ## Acknowledgements
