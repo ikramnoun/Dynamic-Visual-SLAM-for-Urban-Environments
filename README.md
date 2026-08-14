@@ -1,5 +1,7 @@
 # Dynamic Visual SLAM for Urban Environments
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21938456.svg)](https://doi.org/10.5281/zenodo.21938456)
+
 This repository contains the implementation of my Master's thesis project, **Dynamic Visual SLAM for Urban Environments**.
 
 The project proposes a hybrid semantic-motion framework for detecting and filtering dynamic objects in urban environments. The system combines **YOLOv11 instance segmentation**, **SEA-RAFT optical flow**, **RANSAC-based motion detection**, and **ORB-SLAM3** to improve visual SLAM performance in dynamic scenes.
@@ -377,6 +379,16 @@ The evaluation results can then be used to quantitatively compare the baseline a
   <b>Figure 6.</b> Estimated trajectory for Sequence 09 compared with the ground truth.
 </p>
 
+## 📚 Publication
+
+This project is based on my Master's thesis. For detailed information about the implementation and results you can refer to:
+
+> **Noun, I. (2026). _Dynamic Visual SLAM For Urban Environments_. Zenodo.**  
+> https://doi.org/10.5281/zenodo.21938456
+
+**DOI:** [10.5281/zenodo.21938456](https://doi.org/10.5281/zenodo.21938456)
+
+If you use this project or its methodology in your research, please cite the thesis.
 
 ## Acknowledgements
 
